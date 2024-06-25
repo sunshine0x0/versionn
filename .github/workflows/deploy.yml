@@ -27,6 +27,8 @@ jobs:
 
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v1
+        with:
+          path: public
 
   deploy:
     runs-on: ubuntu-latest
